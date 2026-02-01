@@ -8,7 +8,7 @@ const emojiDetails = [
 
   let currentEmojiIndex = 0;
   let score = 0;
-  let seconds = 3;
+  let seconds = 30;
   let timer;
 
   const timerElement = document.getElementById("timer");
@@ -80,4 +80,5 @@ function endGame(){
   clearInterval(timer);
   guessInput.disabled = true;
   timerElement.textContent = "Time's up!";
+
 }
