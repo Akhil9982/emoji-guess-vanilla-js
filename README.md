@@ -35,7 +35,6 @@ emoji-guess-vanilla-js/
 ├── index.html        # Entry point and UI structure
 ├── style.css         # Custom styles and animations
 ├── script.js        # Game logic and DOM manipulation
-├── assets/           # Images, icons, or audio files
 └── README.md         # Project documentation
 
 ```
